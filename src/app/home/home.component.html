@@ -1,0 +1,39 @@
+<app-navvar [selectedId]="0"></app-navvar>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Effects</title>
+  </head>
+<body>
+    <svg viewBox="0 0 960 300">
+        <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">Inventory.Com</text>
+        </symbol>
+        <g class="g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+        </g>
+    </svg>
+
+    <div class="content">
+        <div class="static">
+            <p>Order</p>
+            <ul>
+                <li>Daily</li>
+                <li>Montly</li>
+                <li>Yearly</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="clip-text">
+            <a routerLink="/order">Order &raquo;</a>
+        </div>
+    </div>
+</body>
+</html>

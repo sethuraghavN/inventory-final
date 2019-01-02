@@ -1,0 +1,58 @@
+.order-container{
+    height: auto;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    display: table;
+    // background-color: #a2b987;
+};
+.top-50{
+    margin-top: 50px;
+};
+.pending-orders{
+    color: black;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+};
+.left-15{
+    margin-left: 15px;
+};
+.table-outline{
+    border: 2px solid #a4c3a3;
+}
+.table-outline-past{
+    border: 2px solid #a49a08;
+};
+.table-container{
+    width: 100%;
+};
+#orderButton-container .orderButton-text{
+    position: relative;
+    top: 4px;
+    left: 0px;
+    height: 5px;
+    text-align: center;
+    visibility: hidden;
+    color: #005d00;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#orderButton-container:hover .orderButton-text{
+    visibility: visible;
+}
+#completeButton-container .completeButton-text{
+    position: relative;
+    top: 4px;
+    left: 0px;
+    height: 5px;
+    width: 10px;
+    text-align: center;
+    visibility: hidden;
+    color: #005d00;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#completeButton-container:hover .completeButton-text{
+    visibility: visible;
+}
